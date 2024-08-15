@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9/python-311:1-17.1690899890
+FROM registry.redhat.io/ubi9/python-312:1-20.1722518948
 
 RUN pip3 install --upgrade pip
 RUN pip3 install pandas
